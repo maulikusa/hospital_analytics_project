@@ -25,11 +25,48 @@ This is designed as a **portfolio-ready, enterprise-grade project** demonstratin
 
 ## 🏗️ Architecture Diagram (Text-Based)
 
+```
+Raw CSVs  
+   ↓  
+Python ETL (Cleaning, Feature Engineering, KPI Calculation)  
+   ↓  
+Clinical / Operational / Financial Models  
+   ↓  
+Export Clean Data  
+   ↓  
+Power BI Dashboard (KPIs, Trends, Forecasts)
+```
 
 ---
 
 ## 📂 Folder Structure
 
+```
+hospital_analytics_project/
+│
+├── clinical_models/
+│   └── los_prediction/
+│
+├── operational_models/
+│
+├── financial_models/
+│
+├── python_analysis/
+│   ├── 01_load_data.py
+│   ├── 02_cleaning.py
+│   ├── 03_feature_engineering.py
+│   ├── 04_eda.py
+│   ├── 05_kpi_calculation.py
+│   └── utils/
+│
+├── data_generation/
+│
+├── powerbi_dashboard/
+│
+├── sql_schema/
+│
+└── docs/
+```
 
 ---
 
@@ -56,6 +93,13 @@ This is designed as a **portfolio-ready, enterprise-grade project** demonstratin
 
 ## 🚀 How to Run the Project
 
+```
+pip install -r requirements.txt
+python python_analysis/01_load_data.py
+python python_analysis/02_cleaning.py
+python python_analysis/03_feature_engineering.py
+python python_analysis/05_kpi_calculation.py
+```
 
 ---
 
