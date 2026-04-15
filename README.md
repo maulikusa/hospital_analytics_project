@@ -27,3 +27,41 @@ This is designed as a **portfolio-ready, enterprise-grade project** demonstratin
 
 Input Data → Python ETL → Cleaned Dataset → ML Models → Power BI Dashboard
 
+
+---
+
+## 📂 Folder Structure
+
+
+---
+
+## 📊 Power BI Dashboard  
+(Place your PBIX file in `powerbi_dashboard/` and add screenshots here.)
+
+---
+
+## 🧠 Machine Learning Models  
+- LOS Prediction (Regression)  
+- Readmission Risk (Classification)  
+- Feature engineering for clinical variables  
+
+---
+
+## 🛠️ Tech Stack  
+- **Python** (Pandas, NumPy, Scikit-Learn, Matplotlib)  
+- **SQL** (DDL + schema design)  
+- **Power BI**  
+- **Git & GitHub**  
+- **Synthetic Data Generation**  
+
+---
+
+## 🚀 How to Run the Project
+
+
+---
+
+## 📄 License  
+This project is licensed under the MIT License.
+
+
